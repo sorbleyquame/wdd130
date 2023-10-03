@@ -72,10 +72,10 @@ footer a {
 footer a :hover {
     background-color: #ffebcd;
 }
-.logo {
+#hero-img .logo {
     width: 80px;
 }
-.icon {
+#hero-img .icon {
     width: 80px;
 }
 footer p {
