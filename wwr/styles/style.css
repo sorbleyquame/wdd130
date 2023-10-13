@@ -1,16 +1,13 @@
-div{
+#content {
     max-width: 1600px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
-nav a{
+
+nav a {
     text-align: center;
-    background-color: #fffafa;
-    text-decoration: none;
 }
-#hero-msg h1 , #hero-msg h4 {
+#hero-msg h1, 
+#hero-msg h4{
     text-align: center;
 }
 .button-box{
@@ -22,65 +19,106 @@ main section{
 #background {
     height: 725px;
 }
+
 body {
-    background-color: #ffffff;
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
-    background-color: rgb(240, 248, 255);
+    background-color: #6e0e0a;
+    font-family: "Playfair Display";
 }
-nav a :hover {
-    background-color: brown;
-    color: rgb(165, 42, 42);
-}
-.book, .join {
-    background-color: rgb(255, 255, 255);
+nav a {
     text-decoration: none;
+    color:  #396E94;
+    text-align: center;
+    padding: 35px;
 }
-.book :hover {
-    background-color: #b8860b;
+nav a:hover {
+    background-color: #ffffff;
+    color: #6e0e0a;
+}
+
+.book, .join {
+  background-color:  white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.book :hover 
+.join :hover {
+  background-color:  #1e0311;
 }
 #background {
-    background-color: #ffebcd;
+    background-color:  #ccc;
 }
 .msg {
-    background-color: rgb(184, 134, 11);
-}
-footer {
-    background-color: #f5f5f5;
-}
-.home-title {
-    background-color: snow;
-    color: #fffafa;
-}
-h4 {
-    background-color: rgb(255, 250, 240);
-}
-.book :hover, .join :hover {
-    background-color: #000000;
+    background-color:  #25beb17c;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
-    background-color: rgb(255, 235, 205);
+    font-family: "Playfair Display";
 }
 .msg p {
-    background-color: #000000;
+    font-size: 8em;
+    padding-bottom: 15px;
+}
+footer {
+    background-color: darkturquoise;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
-    background-color: white;
-    color: #ffffff;
     text-decoration: none;
-}
-footer a :hover {
-    background-color: #ffebcd;
-}
-#hero-img .logo {
-    width: 80px;
-}
-#hero-img .icon {
-    width: 80px;
 }
 footer p {
     font-size: 1.2em;
 }
-footer p a :hover{
+footer p a:hover {
     text-decoration: underline;
+}   
+footer .social img {
+    padding-top: 15px;
+} 
+
+.logo, .icon {
+    width: 80px;
+}
+.icon {
+    padding-top: 10px;
+}
+#logo_link {
+    padding-top: 5px;
+}
+#hero-ing {
+    width: 100%;
+}
+
+.home-title {
+    font-family: "Playfair Display";
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.rivers-card, .camping-card,
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #1e0311
+}
+
+main section img {
+    box-sizing: border-box;
 }
