@@ -86,7 +86,6 @@ footer {
 }
 footer a {
     text-decoration: none;
-    background-color: #a52a2a;
     color: #6e0e0a ;
 }
 footer p {
@@ -94,7 +93,6 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
-    background-color: #1e0311;
     color: chartreuse;
 }   
 footer .social img {
